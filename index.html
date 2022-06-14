@@ -7,13 +7,15 @@
     <title>Ingenios en papel - Momentos especiales</title>
     <link rel="shortcut icon" href="./img/shortcut.png">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="nav__header">
             <picture class="picture">
                 <a href="./index.html">
-                    <img class="picture__logo" src="./img/logo-ingenios.png" alt="LOGO">
+                    <img class="picture__logo animate__animated animate__swing" src="./img/logo-ingenios.png" alt="LOGO">
                 </a>
             </picture>
             <ul class="menu">
@@ -37,17 +39,17 @@
         </nav>
     </header>
     <section id="foto-productos">
-        <img class="grid1" src="./img/grid1.png" alt="Foto 1">
-        <img class="grid2" src="./img/grid2.png" alt="Foto 2">
-        <img class="grid3" src="./img/grid3.png" alt="Foto 3">
-        <img class="grid4" src="./img/grid4.png" alt="Foto 4">
-        <img class="grid5" src="./img/grid5.png" alt="Foto 5">
-        <img class="grid6" src="./img/grid6.png" alt="Foto 6">
+        <img class="foto-productos__img grid1" src="./img/grid1.png" alt="Foto 1">
+        <img class="foto-productos__img grid2" src="./img/grid2.png" alt="Foto 2">
+        <img class="foto-productos__img grid3" src="./img/grid3.png" alt="Foto 3">
+        <img class="foto-productos__img grid4" src="./img/grid4.png" alt="Foto 4">
+        <img class="foto-productos__img grid5" src="./img/grid5.png" alt="Foto 5">
+        <img class="foto-productos__img grid6" src="./img/grid6.png" alt="Foto 6">
     </section>
     <hr>
     <section id="dia-del-padre">
         <article class="dia-del-padre__art">
-            <h2 class="dia-del-padre__titulo">ESPECIAL MES DEL PADRE</h2>
+            <h2 class="dia-del-padre__titulo" data-aos="fade-up">ESPECIAL MES DEL PADRE</h2>
             <img class="dia-del-padre__video" src="./img/video-producto.png" alt="Video producto">
         </article>
     </section>
@@ -77,5 +79,9 @@
             <p class="momentos-especiales__texto">M O M E N T O S E S P E C I A L E S</p>
         </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
