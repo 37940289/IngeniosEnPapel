@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONOCENOS - Ingenios en papel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/shortcut.png">
     <link rel="stylesheet" href="../css/index.css">
 </head>
@@ -36,16 +37,33 @@
             </ul>
         </nav>
     </header>
-    <section id="quienes-somos"> 
-        <h2 class="quienes-somos__titulo">¿QUIÉNES SOMOS?</h2>
-        <p class="quienes-somos__texto">Nuestros nombres son Jasmin y Rocío. Somos cuñadas, nos conocemos hace 8 años y en conjunto decidimos comenzar este proyecto. A ambas nos encanta lo que hacemos, aunque no es nuestro principal trabajo. Jasmin está a cargo de una lavandería de ropa y Rocío se desempeña como responsable de calidad de una fábrica de galletitas.</p>
-        <img class="quienes-somos__img" src="../img/foto-ro-y-jas.png" alt="Foto de las creadoras de Ingenios en Papel">
-    </section>
-    <section id="nuestra-formacion">
-        <img class="nuestra-formacion__img" src="../img/nuestra-formacion.png" alt="Imagen de birrete y libros">
-        <h2 class="nuestra-formacion__titulo">NUESTRA FORMACIÓN</h2>
-        <p class="nuestra-formacion__texto">Jasmin es Técnica en Diseño gráfico y Rocío es Ingeniera en Alimentos. Si tenías dudas sobre cómo se nos ocurrió el nombre de este emprendimiento, creo que por el nombre de las carreras que elegimos podrás darte cuenta 🤣 Si bien ambas tenemos otros trabajos, encontramos en Ingenios en Papel una nueva forma de disfrutar el trabajo.</p>
-    </section>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button quienes-somos__titulo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              ¿QUIÉNES SOMOS?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show quienes-somos" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p class="quienes-somos__texto">Nuestros nombres son Jasmin y Rocío. Somos cuñadas, nos conocemos hace 8 años y en conjunto decidimos comenzar este proyecto. A ambas nos encanta lo que hacemos, aunque no es nuestro principal trabajo. Jasmin está a cargo de una lavandería de ropa y Rocío se desempeña como responsable de calidad de una fábrica de galletitas.</p>
+                <img class="quienes-somos__img" src="../img/foto-ro-y-jas.png" alt="Foto de las creadoras de Ingenios en Papel">
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed nuestra-formacion__titulo" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              NUESTRA FORMACIÓN
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse nuestra-formacion" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p class="nuestra-formacion__texto">Jasmin es Técnica en Diseño gráfico y Rocío es Ingeniera en Alimentos. Si tenías dudas sobre cómo se nos ocurrió el nombre de este emprendimiento, creo que por el nombre de las carreras que elegimos podrás darte cuenta 🤣 Si bien ambas tenemos otros trabajos, encontramos en Ingenios en Papel una nueva forma de disfrutar el trabajo.</p>
+            </div>
+          </div>
+        </div>
+    </div>
     <hr>
     <footer>
         <nav class="nav__footer">
@@ -72,5 +90,6 @@
             <p class="momentos-especiales__texto">M O M E N T O S E S P E C I A L E S</p>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

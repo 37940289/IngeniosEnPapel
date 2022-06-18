@@ -90,94 +90,10 @@ ol{
     background-image: url(../img/papel-arrugado.jpg);
     background-size: cover;
     padding: 100px;
-    display: grid;
-    grid-template-columns: repeat (5, 1fr);
-    grid-template-rows: repeat (2, 1fr);
-    gap: 10px;
 }
 
-.foto-productos__img{
-    transition: transform 0.5s ease-in-out;
-}
-
-.foto-productos__img:hover{
-    transform: scale(1.02);
-}
-
-.grid1{
-    grid-column: 1;
-    grid-row: 1;
-    height: 360px;
-}
-
-.grid2{
-    grid-column: 2/5;
-    grid-row: 1;
-    height: 360px;
-}
-
-.grid3{
-    grid-column: 5;
-    grid-row: 1;
-    height: 360px;
-}
-
-.grid4{
-    grid-column: 1/3;
-    grid-row: 2;
-    height: 400px;
-}
-
-.grid5{
-    grid-column: 3;
-    grid-row: 2;
-    height: 400px;
-}
-
-.grid6{
-    grid-column: 4/6;
-    grid-row: 2;
-    height: 400px;
-}
-
-@media screen and (max-width: 800px){
-    #foto-productos{
-        padding: 10px;
-        display: grid;
-        grid-template-columns: repeat (2, 1fr);
-        grid-template-rows: repeat (4, 1fr);
-        gap: 5px;
-    }
-    .grid1{
-        grid-column: 1;
-        grid-row: 1;
-        height: 200px;
-    }
-    .grid2{
-        grid-column: 1/3;
-        grid-row: 2;
-        height: 200px;
-    }
-    .grid3{
-        grid-column: 2;
-        grid-row: 1;
-        height: 200px;
-    }
-    .grid4{
-        grid-column: 1;
-        grid-row: 3;
-        height: 200px;
-    }
-    .grid5{
-        grid-column: 2;
-        grid-row: 3;
-        height: 200px;
-    }
-    .grid6{
-        grid-column: 1/3;
-        grid-row: 4;
-        height: 200px;
-    }
+.grid{
+    height: 600px;
 }
 
 #dia-del-padre{
@@ -248,10 +164,7 @@ footer{
 
 /*CONOCENOS*/
 
-#quienes-somos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 300px;
+.quienes-somos{
     padding: 0px 100px;
     background-image: linear-gradient(to top, white, #F2EADE);
 }
@@ -260,32 +173,25 @@ footer{
     font-family: 'Fresca', sans-serif;
     src: url(../Fresca/Fresca-Regular.ttf);
     font-size: 50px;
-    grid-column: 1/3;
-    grid-row: 1;
-    padding: 30px;
+    padding: 30px 100px;
 }
 
 .quienes-somos__texto{
     font-size: 25px;
     font-family: 'Fresca', sans-serif;
     src: url(../Fresca/Fresca-Regular.ttf);
-    grid-column: 1/3;
-    grid-row: 2;
     padding: 30px;
 }
 
 .quienes-somos__img{
     padding: 20px;
-    grid-column: 3;
-    grid-row: 1/3;
     height: 400px;
-    align-self: center;
+    width: 400px;
+    display: block;
+    margin: auto;
 }
 
-#nuestra-formacion{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 300px;
+.nuestra-formacion{
     padding: 0px 100px;
     background-image: linear-gradient(to top, white, #F2EADE);
 }
@@ -294,10 +200,7 @@ footer{
     font-family: 'Fresca', sans-serif;
     src: url(../Fresca/Fresca-Regular.ttf);
     font-size: 50px;
-    grid-column: 2/4;
-    grid-row: 1;
-    padding: 30px;
-    align-self: center
+    padding: 30px 100px;
 }
 
 .nuestra-formacion__texto{
@@ -307,13 +210,6 @@ footer{
     grid-column: 2/4;
     grid-row: 2;
     padding: 30px;
-}
-
-.nuestra-formacion__img{
-    grid-column: 1;
-    grid-row: 1/3;
-    padding: 20px;
-    align-self: center;
 }
 
 @media screen and (max-width: 1050px){
