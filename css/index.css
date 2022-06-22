@@ -19,6 +19,7 @@ img{
     .nav__header{
         flex-direction: column;
         gap: 50px;
+        padding: 20px 100px;
     }    
 }
 
@@ -39,6 +40,7 @@ ul{
     display: flex;
     gap: 20px;
     align-items: center;
+    padding-left: 0;
 }
 
 ol{
@@ -124,6 +126,14 @@ ol{
 }
 
 @media screen and (max-width: 800px){
+    #foto-productos{
+        padding: 20px;
+    }
+
+    .grid{
+        height: 200px;
+    }
+
     #dia-del-padre{
         background-image: url(../img/fondo-dia-del-padre-girado.jpg);
         background-size: cover;
@@ -213,7 +223,7 @@ footer{
 }
 
 @media screen and (max-width: 1050px){
-    #quienes-somos{
+    #collapseOne, #collapseTwo{
         display: flex;
         flex-direction: column;
         padding: 0px 20px;
@@ -236,8 +246,8 @@ footer{
     
     .quienes-somos__img{
         background-color: #F2EADE;
-        height: 300px;
-        max-width: 400px;
+        height: 250px;
+        max-width: 250px;
         padding: 10px;
     }
     
