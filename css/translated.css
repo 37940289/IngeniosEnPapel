@@ -1,0 +1,50 @@
+/* MISC */
+/* Colores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  width: 100%; }
+
+ol {
+  list-style-type: none; }
+
+/* PARTIALS */
+.nav__header {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .nav__header .picture__logo {
+    max-width: 250px;
+    height: 75px; }
+  .nav__header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 0; }
+  .nav__header .menu__link {
+    text-decoration: none;
+    color: #F297A2;
+    padding: 5px;
+    font-family: 'Fresca', sans-serif;
+    src: url(../Fresca/Fresca-Regular.ttf);
+    font-size: 20px; }
+    .nav__header .menu__link--active {
+      border-style: solid; }
+  .nav__header .menu__item__grid {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    justify-items: center; }
+    .nav__header .menu__item__grid .menu__link__imp {
+      grid-row: 1;
+      padding: 0; }
+    .nav__header .menu__item__grid .menu__link__edit {
+      grid-row: 2;
+      padding: 0; }
+
+/* VIEWS */
