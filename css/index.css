@@ -8,23 +8,11 @@ img{
     width: 100%;
 }
 
-.nav__header{
-    padding: 50px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 @media screen and (max-width: 1050px){
     .nav__header{
         flex-direction: column;
         gap: 50px;
     }    
-}
-
-.picture__logo{
-    max-width: 250px;
-    height: 75px;
 }
 
 @media screen and (max-width: 1050px){
@@ -34,24 +22,8 @@ img{
     }
 }
 
-ul{
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
 ol{
     list-style-type: none;
-}
-
-.menu__link{
-    text-decoration: none;
-    color: #F297A2;
-    padding: 5px;
-    font-family: 'Fresca', sans-serif;
-    src: url(../Fresca/Fresca-Regular.ttf);
-    font-size: 20px;
 }
 
 @media screen and (max-width: 1050px){
@@ -61,27 +33,6 @@ ol{
     ul, ol{
         gap: 5px;
     }
-}
-
-.menu__link--active{
-    border-style: solid;
-}
-
-.menu__item__grid{
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 2;
-    justify-items: center;
-}
-
-.menu__link__imp{
-    grid-row: 1;
-    padding: 0;
-}
-
-.menu__link__edit{
-    grid-row: 2;
-    padding: 0;
 }
 
 /*HOME*/

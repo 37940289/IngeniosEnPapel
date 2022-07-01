@@ -1,0 +1,37 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 0;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: $principal;
+    padding: 5px;
+    font-family: 'Fresca', sans-serif;
+    src: url(../Fresca/Fresca-Regular.ttf);
+    font-size: 20px;
+
+        &--active{
+            border-style: solid;
+        }
+}
+
+.menu__item__grid{
+     display: grid;
+     grid-template-columns: 1;
+     grid-template-rows: 2;
+     justify-items: center;
+
+     .menu__link__imp{
+        grid-row: 1;
+        padding: 0;
+    }
+    
+    .menu__link__edit{
+        grid-row: 2;
+        padding: 0;
+    }
+}
