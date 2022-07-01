@@ -1,5 +1,18 @@
 /* MISC */
 /* Colores */
+/*Fuentes*/
+.xsmall-font {
+  font-size: 20px; }
+
+.small-font {
+  font-size: 25px; }
+
+.medium-font {
+  font-size: 40px; }
+
+.large-font {
+  font-size: 50px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -19,15 +32,15 @@ ul {
   align-items: center;
   padding-left: 0; }
 
-.menu__link {
+.menu__link, .menu__link--active, .nav__header .menu__link--active {
   text-decoration: none;
   color: #F297A2;
   padding: 5px;
   font-family: 'Fresca', sans-serif;
-  src: url(../Fresca/Fresca-Regular.ttf);
-  font-size: 20px; }
-  .menu__link--active {
-    border-style: solid; }
+  src: url(../Fresca/Fresca-Regular.ttf); }
+
+.menu__link--active {
+  border-style: solid; }
 
 .menu__item__grid {
   display: grid;
@@ -55,15 +68,14 @@ ul {
     gap: 20px;
     align-items: center;
     padding-left: 0; }
-  .nav__header .menu__link {
+  .nav__header .menu__link, .nav__header .menu__link--active {
     text-decoration: none;
     color: #F297A2;
     padding: 5px;
     font-family: 'Fresca', sans-serif;
-    src: url(../Fresca/Fresca-Regular.ttf);
-    font-size: 20px; }
-    .nav__header .menu__link--active {
-      border-style: solid; }
+    src: url(../Fresca/Fresca-Regular.ttf); }
+  .nav__header .menu__link--active {
+    border-style: solid; }
   .nav__header .menu__item__grid {
     display: grid;
     grid-template-columns: 1;
@@ -77,3 +89,6 @@ ul {
       padding: 0; }
 
 /* VIEWS */
+.dia-del-padre__video {
+  width: 350px;
+  height: 350px; }

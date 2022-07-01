@@ -2,3 +2,23 @@
 
 $principal: #F297A2;
 $secundario: #F2EADE;
+
+/*Fuentes*/
+
+$xsmall-font: 20px;
+$small-font: 25px;
+$medium-font: 40px;
+$large-font: 50px;
+
+$fontsize:(
+    xsmall-font: 20px,
+    small-font: 25px,
+    medium-font: 40px,
+    large-font: 50px,
+);
+
+@each $key, $val in $fontsize {
+    .#{$key} {
+        font-size: #{$val};
+    }
+}

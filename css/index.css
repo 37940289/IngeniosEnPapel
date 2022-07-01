@@ -62,14 +62,11 @@ ol{
 }
 
 .dia-del-padre__titulo{
-    font-size: 40px;
     font-family: 'Grape Nuts', cursive;
     src: url(../Grape_Nuts/GrapeNuts-Regular.ttf);
 }
 
 .dia-del-padre__video{
-    width: 350px;
-    height: 350px;
     border-style: solid;
     margin: 20px;
 }
