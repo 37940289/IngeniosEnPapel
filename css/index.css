@@ -69,23 +69,6 @@ ol{
     border-style: solid;
 }
 
-.menu__item__grid{
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: 2;
-    justify-items: center;
-}
-
-.menu__link__imp{
-    grid-row: 1;
-    padding: 0;
-}
-
-.menu__link__edit{
-    grid-row: 2;
-    padding: 0;
-}
-
 /*HOME*/
 
 #foto-productos{
@@ -351,6 +334,10 @@ tr:hover {background-color: #F2EADE}
 }
 
 /*IMPRIMIBLES EDITABLES*/
+
+.menu_1rem{
+    margin-bottom: 1rem;
+}
 
 #milkbox{
     border: solid #F2EADE;
