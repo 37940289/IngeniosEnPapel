@@ -1,3 +1,39 @@
-.dia-del-padre__video{
-    @include sizes(350px, 350px);
+#foto-productos{
+    background-image: url(../img/papel-arrugado.jpg);
+    background-size: cover;
+    padding: 100px;
+
+    .grid{
+        height: 600px;
+    }
+}
+
+#dia-del-padre{
+    background-image: url(../img/fondo-dia-del-padre.jpg);
+    background-size: cover;
+    padding: 100px 150px;
+    display: flex;
+    align-items: center;
+
+    .dia-del-padre{
+        &__art{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__titulo{
+            font-family: 'Grape Nuts', cursive;
+            src: url(../Grape_Nuts/GrapeNuts-Regular.ttf);
+        }
+
+        &__video{
+            border-style: solid;
+            margin: 20px;
+        }
+
+        &__video{
+            @include sizes(350px, 350px);
+        }
+    }
 }

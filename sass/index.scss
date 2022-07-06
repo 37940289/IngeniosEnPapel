@@ -2,6 +2,7 @@
 @import './misc/variables';
 @import './misc/normalize';
 @import './misc/mixins';
+@import './misc/mq';
 
 /* PARTIALS */
 @import './partials/footer';
@@ -10,3 +11,6 @@
 /* VIEWS */
 @import './views/conocenos';
 @import './views/home';
+@import './views/cursos';
+@import './views/contacto';
+@import './views/imprimibleseditables';

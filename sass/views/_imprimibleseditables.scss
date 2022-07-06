@@ -1,0 +1,131 @@
+#milkbox{
+    border: solid $secundario;
+    display: flex;
+    flex-direction: row;
+
+    .milkbox{
+        &__titulo{
+            padding: 100px 200px 50px 200px;
+            font-family: 'Fresca', sans-serif;
+            src: url(../Fresca/Fresca-Regular.ttf);
+            font-size: $medium-font;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__texto{
+            margin: 0px 100px 50px 200px;
+            text-align: justify;
+            font-size: $small-font;
+            @include sizes (700px, 50px);
+            font-family: 'Fresca', sans-serif;
+            src: url(../Fresca/Fresca-Regular.ttf);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__img{
+            @include sizes (300px, 300px);
+            margin: 50px 0px;
+        }
+    }
+}
+
+#cajoncito{
+    border: solid #F2EADE;
+    display: flex;
+    flex-direction: row;
+
+    .cajoncito{        
+        &__titulo{
+            padding: 100px 200px 50px 200px;
+            font-family: 'Fresca', sans-serif;
+            src: url(../Fresca/Fresca-Regular.ttf);
+            font-size: $medium-font;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__texto{
+            margin: 0px 100px 50px 200px;
+            text-align: justify;
+            font-size: $small-font;
+            @include sizes (700px, 50px);
+            font-family: 'Fresca', sans-serif;
+            src: url(../Fresca/Fresca-Regular.ttf);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__img{
+            @include sizes (300px, 300px);
+            margin: 50px 0px;
+        }
+    }
+}
+
+#tarjeta{
+    background-color: $secundario;
+    display: flex;
+    flex-direction: row;
+
+    .tarjeta{
+        &__titulo{
+            padding: 100px 200px 50px 50px;
+            font-family: 'Fresca', sans-serif;
+            src: url(../Fresca/Fresca-Regular.ttf);
+            font-size: $medium-font;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__texto{
+            margin: 0px 200px 50px 50px;
+            text-align: justify;
+            font-size: $small-font;
+            @include sizes (700px, 50px);
+            font-family: 'Fresca', sans-serif;
+            src: url(../Fresca/Fresca-Regular.ttf);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__img{
+            @include sizes (300px, 300px);
+            margin: 50px 50px 50px 200px;
+        }
+    }
+}
+
+#minibeat{
+    background-color: $secundario;
+    display: flex;
+    flex-direction: row;
+
+    .minibeat{
+        &__titulo{
+            padding: 100px 200px 50px 50px;
+            font-family: 'Fresca', sans-serif;
+            src: url(../Fresca/Fresca-Regular.ttf);
+            font-size: $medium-font;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__texto{
+            margin: 0px 200px 50px 50px;
+            text-align: justify;
+            font-size: $small-font;
+            @include sizes (700px, 50px);
+            font-family: 'Fresca', sans-serif;
+            src: url(../Fresca/Fresca-Regular.ttf);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__img{
+            @include sizes (300px, 300px);
+            margin: 50px 50px 50px 200px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#formulario{
+    font-family: 'Fresca', sans-serif;
+    src: url(../Fresca/Fresca-Regular.ttf);
+    padding: 0px 500px;
+
+    .formulario{
+        &__art{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 5px;
+        }
+
+        &__lado{
+            margin: 5px;
+        }
+    }
+
+    .casilla{
+        width: 100%;
+    }
+}

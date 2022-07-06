@@ -1,0 +1,105 @@
+@media screen and (max-width: 1050px){
+    .nav__header{
+        flex-direction: column;
+        gap: 50px;
+    }    
+}
+
+@media screen and (max-width: 1050px){
+.picture__logo{
+    @include sizes (1000px, 80px);
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .menu__link{
+        font-size: 12px;
+    }
+    ul, ol{
+        gap: 5px;
+    }
+}
+
+/*HOME*/
+
+@media screen and (max-width: 768px){
+    #foto-productos{
+        padding: 20px;
+    }
+
+    .grid{
+        @include sizes (200px, 200px);
+    }
+
+    #dia-del-padre{
+        background-image: url(../img/fondo-dia-del-padre-girado.jpg);
+        background-size: cover;
+        padding: 20px;
+    }
+    .dia-del-padre__titulo{
+        padding-top: 400px;
+        font-size: $xsmall-font;
+        color: $texto;
+    }
+    .dia-del-padre__video{
+        @include sizes (250px, 250px);
+    }
+}
+
+/*CONOCENOS*/
+
+@media screen and (max-width: 1050px){
+    #collapseOne, #collapseTwo{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        background-color: $secundario;
+    }
+    
+    .quienes-somos__titulo{
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        font-size: $xsmall-font;
+        padding: 10px;
+    }
+    
+    .quienes-somos__texto{
+        font-size: 15px;
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        padding: 10px;
+    }
+    
+    .quienes-somos__img{
+        background-color: $secundario;
+        height: 250px;
+        max-width: 250px;
+        padding: 10px;
+    }
+    
+    #nuestra-formacion{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    
+    .nuestra-formacion__titulo{
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        font-size: $xsmall-font;
+        padding: 10px;
+    }
+    
+    .nuestra-formacion__texto{
+        font-size: 15px;
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        padding: 10px;
+    }
+
+    .nuestra-formacion__img{
+        max-height: 300px;
+        max-width: 400px;
+        padding: 10px;
+    }
+}

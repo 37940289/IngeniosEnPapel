@@ -1,0 +1,46 @@
+.quienes-somos{
+    padding: 0px 100px;
+    background-image: linear-gradient(to top, white, #F2EADE);
+
+    &__titulo{
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        font-size: $large-font;
+        padding: 30px 100px;
+    }
+
+    &__texto{
+        font-size: $small-font;
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        padding: 30px;
+    }
+
+    &__img{
+        padding: 20px;
+        @include sizes(400px, 400px);
+        display: block;
+        margin: auto;
+    }
+}
+
+.nuestra-formacion{
+    padding: 0px 100px;
+    background-image: linear-gradient(to top, white, #F2EADE);
+
+    &__titulo{
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        font-size: $large-font;
+        padding: 30px 100px;
+    }
+
+    &__texto{
+        font-size: $small-font;
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        grid-column: 2/4;
+        grid-row: 2;
+        padding: 30px;
+    }
+}

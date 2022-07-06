@@ -12,26 +12,30 @@ ul{
     padding: 5px;
     font-family: 'Fresca', sans-serif;
     src: url(../Fresca/Fresca-Regular.ttf);
-}
 
-.menu__link--active{
-    @extend .menu__link;
-    border-style: solid;
-}
-
-.menu__item__grid{
-     display: grid;
-     grid-template-columns: 1;
-     grid-template-rows: 2;
-     justify-items: center;
-
-     .menu__link__imp{
-        grid-row: 1;
-        padding: 0;
+    &--active{
+        @extend .menu__link;
+        border-style: solid;
     }
-    
-    .menu__link__edit{
-        grid-row: 2;
-        padding: 0;
+}
+
+.nav__footer{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#momentos-especiales{
+    background-color: $terciario;
+
+    .momentos-especiales__texto{
+        margin-bottom: 0;
+        padding: 30px;
+        color: $texto;
+        font-family: 'Fresca', sans-serif;
+        src: url(../Fresca/Fresca-Regular.ttf);
+        text-align: center;
+        font-size: $xsmall-font;
     }
 }

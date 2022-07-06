@@ -1,0 +1,36 @@
+.background{
+    background-image: url(../img/illustrator.png);
+    background-size: 100%;
+}
+
+.transbox{
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+
+table{
+    text-align: center;
+    padding: 200px;
+    margin: auto;
+    font-family: 'Fresca', sans-serif;
+    src: url(../Fresca/Fresca-Regular.ttf);
+    font-size: 30px;
+    color: $texto;
+}
+
+th, td{
+    border-bottom: 2px solid $secundario;
+}
+
+th{
+    font-weight: bolder;
+}
+
+tr:hover {background-color: $secundario}
+
+.texto-contacto{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Fresca', sans-serif;
+    src: url(../Fresca/Fresca-Regular.ttf);
+}
