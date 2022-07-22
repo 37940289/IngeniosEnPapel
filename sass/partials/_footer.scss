@@ -1,4 +1,5 @@
 ul{
+    font-size: map-get($fontsize, xsmall-font);
     list-style-type: none;
     display: flex;
     gap: 20px;

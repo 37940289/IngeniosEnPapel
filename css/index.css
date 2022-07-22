@@ -8,6 +8,18 @@ img{
     width: 100%;
 }
 
+h1{
+    padding: 50px 100px;
+    text-decoration: none;
+    color: #F297A2;
+    font-family: 'Fresca', sans-serif;
+    src: url(../Fresca/Fresca-Regular.ttf);
+}
+
+.menu__1rem{
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 1050px){
     .nav__header{
         flex-direction: column;
