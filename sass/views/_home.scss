@@ -1,17 +1,17 @@
 #foto-productos{
     background-image: url(../img/papel-arrugado.jpg);
     background-size: cover;
-    padding: 100px;
-
+    padding: 100px 200px;
+    
     .grid{
-        height: 600px;
+        @include sizes (600px, 600px);
     }
 }
 
 #dia-del-padre{
     background-image: url(../img/fondo-dia-del-padre.jpg);
     background-size: cover;
-    padding: 100px 150px;
+    padding: 100px 200px;
     display: flex;
     align-items: center;
 
@@ -29,11 +29,11 @@
 
         &__video{
             border-style: solid;
-            margin: 20px;
+            margin: 20px 0px;
         }
 
         &__video{
-            @include sizes(350px, 350px);
+            @include sizes(400px, 400px);
         }
     }
 }

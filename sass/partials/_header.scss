@@ -1,15 +1,11 @@
 .nav__header{
-    padding: 50px 100px;
+    padding: 50px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .picture__logo{
-        max-width: 250px;
-        height: 75px;
-    }
-    
     ul{
+        font-size: map-get($fontsize, xsmall-font);
         list-style-type: none;
         display: flex;
         gap: 20px;

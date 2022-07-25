@@ -18,9 +18,3 @@ $fontsize:(
     medium-font: 40px,
     large-font: 50px,
 );
-
-@each $key, $val in $fontsize {
-    .#{$key} {
-        font-size: #{$val};
-    }
-}

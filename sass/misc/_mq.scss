@@ -1,48 +1,48 @@
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1024px){
     .nav__header{
         flex-direction: column;
         gap: 50px;
-    }    
-}
 
-@media screen and (max-width: 1050px){
-.picture__logo{
-    @include sizes (1000px, 80px);
+        .picture__logo{
+            @include sizes (400px, 175px);
+        }
+        
+        ul, ol{
+            gap: 5px;
+        }
+    }
+
+    #foto-productos{
+        padding: 50px;
+        
+        .grid{
+            @include sizes (600px, 600px);
+        }
     }
 }
-
-@media screen and (max-width: 1050px){
-    .menu__link{
-        font-size: 12px;
-    }
-    ul, ol{
-        gap: 5px;
-    }
-}
-
-/*HOME*/
 
 @media screen and (max-width: 768px){
     #foto-productos{
         padding: 20px;
-    }
-
-    .grid{
-        @include sizes (200px, 200px);
+    
+        .grid{
+            @include sizes (200px, 200px);
+        }
     }
 
     #dia-del-padre{
         background-image: url(../img/fondo-dia-del-padre-girado.jpg);
         background-size: cover;
         padding: 20px;
-    }
-    .dia-del-padre__titulo{
-        padding-top: 400px;
-        font-size: $xsmall-font;
-        color: $texto;
-    }
-    .dia-del-padre__video{
-        @include sizes (250px, 250px);
+    
+        .dia-del-padre__titulo{
+            padding-top: 400px;
+            font-size: $xsmall-font;
+            color: $texto;
+        }
+        .dia-del-padre__video{
+            @include sizes (250px, 250px);
+        }
     }
 }
 

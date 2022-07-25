@@ -1,12 +1,12 @@
 .quienes-somos{
-    padding: 0px 100px;
+    padding: 0px 200px;
     background-image: linear-gradient(to top, white, #F2EADE);
 
     &__titulo{
         font-family: 'Fresca', sans-serif;
         src: url(../Fresca/Fresca-Regular.ttf);
-        font-size: $large-font;
-        padding: 30px 100px;
+        font-size: $medium-font;
+        padding: 30px 200px;
     }
 
     &__texto{
@@ -14,25 +14,26 @@
         font-family: 'Fresca', sans-serif;
         src: url(../Fresca/Fresca-Regular.ttf);
         padding: 30px;
+        text-align: justify;
     }
 
     &__img{
         padding: 20px;
-        @include sizes(400px, 400px);
+        @include sizes(400px, 380px);
         display: block;
         margin: auto;
     }
 }
 
 .nuestra-formacion{
-    padding: 0px 100px;
+    padding: 0px 200px;
     background-image: linear-gradient(to top, white, #F2EADE);
 
     &__titulo{
         font-family: 'Fresca', sans-serif;
         src: url(../Fresca/Fresca-Regular.ttf);
-        font-size: $large-font;
-        padding: 30px 100px;
+        font-size: $medium-font;
+        padding: 30px 200px;
     }
 
     &__texto{
@@ -42,5 +43,15 @@
         grid-column: 2/4;
         grid-row: 2;
         padding: 30px;
+        text-align: justify;
     }
+}
+
+.accordion-button {
+    color: $principal;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: $secundario;
+    color: $texto;
 }
